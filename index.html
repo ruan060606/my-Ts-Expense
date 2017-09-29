@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width"/>
+	<title>Tradeshift Expense</title>
+	
+	<!-- main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" />
+</head>
+<body>
+	<header data-ts="TopBar"></header>
+	<!-- aside starts -->
+	<aside data-ts="SideBar">
+		<div class="panel" data-ts="Panel">
+			<h3>Create documents</h3>
+				<ul class="list-items">
+					<li><i class="icon ts-icon-add"></i>Expense Report</li>
+					<li><i class="icon ts-icon-add"></i>Invoice</li>
+					<li><i class="icon ts-icon-add"></i>Credit Note</li>
+					<li><i class="icon ts-icon-add"></i>Quote</li>
+					<li><i class="icon ts-icon-add"></i>Purchase Order</li>
+				</ul>
+		</div>
+	</aside>
+	<!-- main content starts -->
+	<main data-ts="Main">
+		<div data-ts="MainContent">
+			<h2 id="open-myaside">Create New Expense Report <a href="#">Upload Receipts</a></h2>
+			<div class="form-wrapper">
+				<form data-ts="Form">
+					<fieldset class="push-left">
+						<label>
+							<span>Employee Name</span>
+							<input name="emp-name" type="text" required />
+						</label>
+						<label class="select-field">
+							<span>Manager</span>
+							<select name="cars">
+							  <option selected="selected" value="default">Select Manager</option>
+							  <option value="David">David Ahrens</option>
+							  <option value="Amber">Amber Ithiphol</option>
+							  <option value="Dan">Dan Caprils</option>
+							</select>
+						</label>
+						<label>
+							<span>Report Title</span>
+							<input name="report-title" type="text" required placeholder="Optional" />
+						</label>
+					</fieldset>
+
+					<fieldset class="push-right">
+						<label>
+							<span>Invoice number: </span>
+							<input name="invoice-number" type="text" required />
+						</label>
+						<label class="has-date">
+							<span>Date Created</span>
+							<input type="date" name="date-created" placeholder="09/28/17" />
+							<i class="ts-icon-calender"></i>
+						</label>
+						<label class="has-date">
+							<span>Date Submitted</span>
+							<input type="date" name="date-submitted" placeholder="09/28/17" />
+							<i class="ts-icon-calender"></i>
+						</label>
+						<label class="has-date">
+							<span>Currency</span>
+							<select name="currency">
+							  <option selected="selected" value="USD">USD</option>
+							  <option value="AFN">AFN</option>
+							  <option value="AED">AED</option>
+							  <option value="EUR">EUR</option>
+							</select>
+						</label>
+					</fieldset>
+					<fieldset class="documentlinetable">
+						<table>
+							<thead>
+								<tr>
+									<th>Item ID</th>
+									<th>Category</th>
+								</tr>	
+							</thead>
+							<tr>
+								<td><input type="" name="" placeholder=""></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</main>
+	<script type='text/javascript' src='https://3ggqje2jhgjp45f9yd48ay211i1-wpengine.netdna-ssl.com/wp-content/themes/Tradeshift/js/jquery-2.1.1.js?ver=4.8.2'></script>
+	<script type='text/javascript' src='//d5wfroyti11sa.cloudfront.net/prod/client/ts-9.2.4.min.js'></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>

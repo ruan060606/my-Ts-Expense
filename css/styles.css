@@ -1,0 +1,61 @@
+.icon {
+	font-size: 26px;
+	margin-right: 11px;
+	opacity: 0.5;
+}
+.panel h3 {
+	height: 44px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 11px 0;
+    line-height: 44px;
+}
+ul.list-items li {
+	list-style-type: none !important
+	font-weight: 200;
+	line-height: 44px;
+	font-size: 14px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+}
+h2 a {
+	margin-left: 15px;
+	color: rgb(32, 160, 233);
+	font-size: 14px
+
+}
+.ts-maincontent {
+	margin-left: 22px
+}
+.form-wrapper {
+	background: white;
+	max-width: 960px;
+	min-height: 90vh;
+	box-shadow: rgba(0, 0, 0, 0.23) 0px 0px 4px;
+	border-radius: 5px 5px 0px 0px;;
+	overflow: auto;
+}
+.form-wrapper fieldset {
+	padding: 20px !important;
+	overflow: auto;
+}
+.push-left {
+	float: left;
+	width: 50%;
+}
+.push-right {
+	float: right;
+	width: 50%;
+}
+.has-date {
+	position: relative;
+	float: left;
+	width: 33%;
+}
+.documentlinetable {
+	clear: both;
+	padding-top: 44px;
+}
